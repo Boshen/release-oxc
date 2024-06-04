@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.10](https://github.com/oxc-project/cargo-release-oxc/compare/v0.0.9...v0.0.10) - 2024-06-04
+
+### Added
+- check git status before running anything
+- add `--release name`
+- update package.json versions
+- add configuration
+- calculate next version from changelog
+- `update` print version
+- remove cargo check in update command
+- customize tag prefix
+
+### Other
+- remove `semver`
+- unwrap parent
+- refactor out versioning crates
+- alias r in justfile
+
 ## [0.0.9](https://github.com/oxc-project/cargo-release-oxc/compare/v0.0.8...v0.0.9) - 2024-06-02
 
 ### Added
